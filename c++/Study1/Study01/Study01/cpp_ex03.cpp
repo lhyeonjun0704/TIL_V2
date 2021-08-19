@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 
 using namespace std;
@@ -37,6 +38,8 @@ void getItem(int itemID, int cnt) {
 }
 */
 
+/*
+
 void getItem(int itemID, int cnt = 1, int sc = 0) { // default 값을 정해줌으로써 함수를 여러개 만들 필요가 없다. default값은 오른쪽부터 값을 주는걸로 약속이 되어있다.
 	inventory[itemID] += cnt;
 	score += sc;
@@ -74,4 +77,15 @@ int main() {
 	cout << "*pa: " << *pa << endl;
 	cout << "*pb: " << *pb << endl;
 
+	int arr[2][3] = { {1, 2, 3 }, {4, 5, 6} };
+
+	for (int(&ln)[3] : arr) {
+		for (int& col : ln) {
+			cout << col << ' ';
+		}
+		cout << endl;
+	}
+
 }
+
+*/

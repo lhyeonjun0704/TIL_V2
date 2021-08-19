@@ -139,9 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cpp_ex08.cpp" />
+    <ClCompile Include="cpp_ex04.cpp" />
+    <ClCompile Include="cpp_ex05.cpp" />
+    <ClCompile Include="cpp_ex06.cpp" />
+    <ClCompile Include="cpp_ex07.cpp" />
     <ClCompile Include="cpp_ex01.cpp" />
     <ClCompile Include="cpp_ex02.cpp" />
     <ClCompile Include="cpp_ex03.cpp" />
+    <ClCompile Include="cpp_ex09.cpp" />
     <ClCompile Include="ex01.cpp" />
     <ClCompile Include="ex02.cpp" />
     <ClCompile Include="ex03.cpp" />
