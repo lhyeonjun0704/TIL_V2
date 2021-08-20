@@ -148,6 +148,10 @@
     <ClCompile Include="cpp_ex02.cpp" />
     <ClCompile Include="cpp_ex03.cpp" />
     <ClCompile Include="cpp_ex09.cpp" />
+    <ClCompile Include="cpp_ex10.cpp" />
+    <ClCompile Include="cpp_ex11.cpp" />
+    <ClCompile Include="cpp_ex12.cpp" />
+    <ClCompile Include="cpp_ex13.cpp" />
     <ClCompile Include="ex01.cpp" />
     <ClCompile Include="ex02.cpp" />
     <ClCompile Include="ex03.cpp" />

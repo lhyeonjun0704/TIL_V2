@@ -1,2 +1,4 @@
-﻿  cpp_ex09.cpp
+﻿  cpp_ex12.cpp
+C:\Users\ih919\GitHub\TIL_V2\c++\Study1\Study01\Study01\cpp_ex12.cpp(18,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ih919\GitHub\TIL_V2\c++\Study1\Study01\Study01\cpp_ex12.cpp(24,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Study01.vcxproj -> C:\Users\ih919\GitHub\TIL_V2\c++\Study1\Study01\Debug\Study01.exe
