@@ -17,11 +17,38 @@ public class JpaMain {
         tx.begin();
 
         try{
-            Member member = new Member();
 
-            member.setUsername("C");
+            Team team = new Team();
+            team.setName("TeamA");
+//            team.getMembers().add(member);
+            em.persist(team);
 
+            Member2 member = new Member2();
+            member.setName("member1");
+            member.setTeam(team);
             em.persist(member);
+
+
+            em.flush();
+            em.clear();
+
+            Member2 findMember = em.find(Member2.class, member.getId()); // 영속성된것이기 때문에 1차캐시에서 불러온다
+            List<Member2> members = findMember.getTeam().getMembers();
+
+            for (Member2 m : members){
+                System.out.println("m = " + m.getName());
+            }
+
+            // 직접 DB에서 가지고 오고 싶다면
+//            em.flush();
+//            em.clear();
+
+//            Team findTeam = findMember.getTeam();
+//            System.out.println("findTeam = " + findTeam.getName());
+
+            // 수정
+//            em.find(Team.class, 100L);
+//            findMember.setTeam(newTeam);
 
             tx.commit();
         } catch(Exception e){
