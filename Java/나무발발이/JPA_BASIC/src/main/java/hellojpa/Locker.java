@@ -10,8 +10,8 @@ public class Locker {
 
     private String name;
 
-    @OneToOne(mappedBy = "LOCKER")
-    private Member member;
+    @OneToOne(mappedBy = "locker")
+    private Member2 member;
 
 
 }
