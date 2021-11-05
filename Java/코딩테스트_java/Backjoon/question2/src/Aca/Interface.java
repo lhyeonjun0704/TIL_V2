@@ -1,4 +1,4 @@
-package question4;
+package Aca;
 
 interface Restaurant{
 	public void pojang(); // 선언o, 구현 x, child에서 반드시해줌
