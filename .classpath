@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Java/나무발발이/demo/demo/src/main/java"/>
+	<classpathentry kind="src" path="Java/나무발발이/demo/demo/src/test/java"/>
+	<classpathentry excluding="hellojpa/" kind="src" path="Java/나무발발이/JPA_BASIC/src/main/java"/>
+	<classpathentry kind="src" path="Java/나무발발이/JPA_BASIC/src/main/java/hellojpa"/>
+	<classpathentry kind="src" path="Java/나무발발이/jpashop/src/main/java"/>
+	<classpathentry kind="src" path="Java/코딩테스트_java/Backjoon/q10718/src"/>
+	<classpathentry kind="src" path="Java/코딩테스트_java/Backjoon/question2/src"/>
+	<classpathentry kind="src" path="Java/학원/Academy/src"/>
+	<classpathentry kind="src" path="Java/학원/Calculator_prj/src"/>
+	<classpathentry kind="src" path="Java/학원/Temp/src"/>
+	<classpathentry kind="src" path="Java/pjTest/clientSocket/src"/>
+	<classpathentry kind="src" path="Java/pjTest/pjTest2/src"/>
+	<classpathentry kind="src" path="Java/pjTest/src"/>
+	<classpathentry kind="src" path="JSP_latest/jpashop/src/main/java"/>
+	<classpathentry kind="src" path="JSP_latest/jpashop/src/test/java"/>
+	<classpathentry excluding="com/example/firstproject/repository/" kind="src" path="JSP/firstproject (1)/firstproject/src/main/java"/>
+	<classpathentry kind="src" path="JSP/firstproject (1)/firstproject/src/main/java/com/example/firstproject/repository"/>
+	<classpathentry kind="src" path="JSP/firstproject (1)/firstproject/src/test/java"/>
+	<classpathentry kind="lib" path="Java/나무발발이/demo/demo/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="JSP_latest/jpashop/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="JSP/firstproject (1)/firstproject/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="Java/나무발발이/JPA_BASIC/target/classes"/>
+</classpath>
