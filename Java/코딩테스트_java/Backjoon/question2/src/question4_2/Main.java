@@ -10,19 +10,13 @@ public class Main {
 		Stack<String> stack = new Stack<>();
 		char [] arr = str.toCharArray();
 		for(int i = 0; i < str.length(); i++) {
-			if(String.valueOf(arr[i]).equals("(")){
-				stack.push(String.valueOf(arr[i]));
-				for(int j = i; j < str.length(); j++) {
-					if(String.valueOf(arr[i]).equals(")")) {
-						stack.push(String.valueOf(arr[i]));
-						i = j;
-						break;
-					} else {
-						stack.push(String.valueOf(arr[i]));
-					}
+			if(String.valueOf(arr[i]).equals(")")) {
+				while(stack.pop().equals("(") == false) {
 				}
-			} else answer += String.valueOf(arr[i]);
+			} else stack.push(String.valueOf(arr[i]));
 		}
+		for(int i = 0; i < stack.size(); i++) answer += stack.get(i);
+		
 		
 		
 		return answer;
