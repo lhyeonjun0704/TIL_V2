@@ -10,7 +10,7 @@ public class Main {
 		for(long i = Long.parseLong(n)+1 ; i < Long.MAX_VALUE; i++) {
 			String pal = new StringBuilder(String.valueOf(i)).reverse().toString();
 			if(pal.equals(String.valueOf(i))) {
-				System.out.println(String.valueOf(i));
+				System.out.println(i);
 				System.exit(0);
 			}
 		}
