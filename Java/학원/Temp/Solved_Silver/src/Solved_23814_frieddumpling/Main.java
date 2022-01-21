@@ -37,7 +37,7 @@ public class Main {
 				else if(D.subtract(M.remainder(D)).compareTo(D.subtract(K.remainder(D))) == -1 &&
 						D.subtract(N.remainder(D)).compareTo(D.subtract(M.remainder(D))) == -1) {
 					System.out.println(K.subtract(D.subtract(N.remainder(D))));
-				} else System.out.println(K);
+				} else System.out.println(K);0
 						
 			}
 		}
